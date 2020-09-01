@@ -1,0 +1,19 @@
+{
+    "name": "DS Books",
+    "short_name": "DS Books",
+    "description": "DS Books",
+    "background_color": "#FFFFFF",
+    "theme_color": "#000000",
+    "orientation": "landscape",
+    "display": "standalone",
+    "start_url": "./?utm_source=web_app_manifest",
+    "scope": "./",
+    "lang": "en-US",
+    "icons":[
+        {
+            "src": "./Images/Icon-Ipad.png",
+            "sizes": "152x152",
+            "type": "image/png"
+        }
+    ]
+}

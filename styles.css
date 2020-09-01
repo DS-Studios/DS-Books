@@ -1,0 +1,59 @@
+/*CSS*/
+
+/*body*/
+body {
+    background-color: white;
+    margin: 0%;
+}
+
+/*a-header*/
+.a-header {
+    text-decoration: none;
+    color: white;
+}
+
+/*Title*/
+.Title {
+    color: white;
+    background-color: black;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 63px;
+    margin-top: 0%;
+}
+
+/*Slogan*/
+.Slogan {
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 26px;
+}
+
+/*Category*/
+.Category {
+    text-align: center;
+}
+
+/*Book-Name*/
+.Book-Name {
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 23px;
+    list-style: none;
+}
+
+/*Book*/
+.Book {
+    text-align: center;
+}
+
+/*footer*/
+footer {
+    color: white;
+    background-color: black;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 18px;
+}
