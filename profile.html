@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Title -->
+        <title>
+            DS Books | Profile
+        </title>
+        <!-- Icon -->
+        <link rel="shortcut icon" href="./Images/Icon.svg" type="image/x-icon">
+        <!-- CSS -->
+        <link rel="stylesheet" href="./styles.css">
+        <!-- JavaScript -->
+        <script src="./profile.js"></script>
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/1b28a99b22.js" crossorigin="anonymous"></script>
+        <!-- Animate.css -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+        <!-- Metadata -->
+        <meta charset="UTF-8">
+    </head>
+    <body onload="GetLocalStorage()">
+        <!-- Header -->
+        <header>
+            <!-- Title -->
+            <h1 class="Title">
+                <a class="a-header" href="./index.html">
+                    <i class="fas fa-book-open"></i>
+                    Profile
+                </a>
+            </h1>
+        </header>
+        <!-- Form -->
+        <form action="">
+            <div class="Center">
+                <!-- Username -->
+                <p class="Center">
+                    <label for="" class="Label">
+                        Username
+                        <br>
+                        <input class="Input" type="text" id="Username" name="username">
+                    </label>
+                </p>
+                <!-- E-Mail -->
+                <p class="Center">
+                    <label for="" class="Label">
+                        E-Mail
+                        <br>
+                        <input type="email" name="" id="" class="Input">
+                    </label>
+                </p>
+                <!-- Password -->
+                <p class="Center">
+                    <label for="" class="Label">
+                        Password
+                        <br>
+                        <input type="password" name="" id="" class="Input">
+                    </label>
+                </p>
+                <!-- Birthday -->
+                <p class="Center">
+                    <label for="" class="Label">
+                        Birthday
+                        <br>
+                        <input type="date" name="" id="" class="Input">
+                    </label>
+                </p>
+                <!-- Gender -->
+                <p class="Center">
+                    <label for="" class="Label">
+                        Gender
+                        <br>
+                        <!-- Man -->
+                        <label for="Man" class="Radio-Input">
+                            <input type="radio" name="Gender" id="Man">
+                            Man
+                        </label>
+                        <br>
+                        <!-- Woman -->
+                        <label for="Woman" class="Radio-Input">
+                            <input type="radio" name="Gender" id="Woman">
+                            Woman
+                        </label>
+                    </label>
+                </p>
+                <!-- Which Are your favourite Book Genres -->
+                <p class="Center">
+                    <label for="" class="Label">
+                        Which Are Your Favourites Book Genres?
+                        <br>
+                        <!-- Science Fiction -->
+                        <label for="1" class="Input">
+                            <input type="checkbox" name="" id="1" class="">
+                            Science Fiction
+                        </label>
+                        <br>
+                        <!-- Romance -->
+                        <label for="2" class="Input">
+                            <input type="checkbox" name="" id="2" class="">
+                            Romance
+                        </label>
+                        <br>
+                        <!-- Children's -->
+                        <label for="3" class="Input">
+                            <input type="checkbox" name="" id="3" class="">
+                            Children's
+                        </label>
+                        <br>
+                        <!-- Thriller -->
+                        <label for="4" class="Input">
+                            <input type="checkbox" name="" id="4" class="">
+                            Thriller
+                        </label>
+                    </label>
+                </p>
+            </div>
+        </form>
+        <!-- Submit -->
+        <p class="Center">
+            <a class="Profile" href="./index.html">
+                <button class="Submit-Button" onclick="StoreData()" value="Store UserName">
+                    Submit
+                </button>
+            </a>
+        </p>
+    </body>
+</html>

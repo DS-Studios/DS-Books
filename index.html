@@ -9,6 +9,8 @@
         <link rel="icon" type="image/svg" href="./Images/Icon.svg">
         <!-- CSS -->
         <link rel="stylesheet" href="./styles.css">
+        <!-- JavaScript -->
+        <script src="./profile.js"></script>
         <!-- Font Awesome -->
         <script src="https://kit.fontawesome.com/1b28a99b22.js" crossorigin="anonymous"></script>
         <!-- Animate.css -->
@@ -23,7 +25,7 @@
         <!-- PWA -->
         <link rel="manifest" href="./manifest.json">
     </head>
-    <body>
+    <body onload="GetLocalStorage()">
         <!-- Header -->
         <header>
             <!-- Title -->
@@ -35,34 +37,47 @@
             </h1>
         </header>
         <!-- Slogan -->
-        <div class="Slogan">
+        <p class="Slogan">
+            Welcome
+            <span id="span1"></span>
+            <br>
             What Do You Want To Read Today?
-        </div>
-        <br>
+        </p>
         <!-- Categories -->
         <!-- Science Fiction -->
         <p class="Category">
             <a href="./science-fiction.html">
-                <img class="animate__bounceIn" src="./Images/Science-Fiction.jpg" width="183.3" height="266.6" title="Science Fiction">
+                <img id="Category-Shadow" class="animate__bounceIn" src="./Images/Science-Fiction.jpg" width="183.3" height="266.6" title="Science Fiction">
             </a>
         </p>
         <!-- Romance -->
         <p class="Category">
             <a href="./romance.html">
-                <img class="animate__bounceIn" src="./Images/Romance.jpg" width="183.3" height="266.6" title="Romance">
+                <img id="Category-Shadow" class="animate__bounceIn" src="./Images/Romance.jpg" width="183.3" height="266.6" title="Romance">
             </a>
         </p>
         <!-- Children's -->
         <p class="Category">
             <a href="./childrens.html">
-                <img class="animate__bounceIn" src="./Images/Childrens.jpg" width="183.3" height="266.6" title="Children's">
+                <img id="Category-Shadow" class="animate__bounceIn" src="./Images/Childrens.jpg" width="183.3" height="266.6" title="Children's">
             </a>
         </p>
         <!-- Thriller -->
         <p class="Category">
             <a href="./thriller.html">
-                <img class="animate__bounceIn" src="./Images/Thriller.jpg" width="183.3" height="266.6" title="Thriller">
+                <img id="Category-Shadow" class="animate__bounceIn" src="./Images/Thriller.jpg" width="183.3" height="266.6" title="Thriller">
             </a>
+        </p>
+        <!-- Profile -->
+        <p class="Center">
+            <button class="Profile-Button">
+                <a class="Profile" href="./profile.html">
+                    <div>
+                        <i class="fas fa-user"></i>
+                        Profile
+                    </div>
+                </a>
+            </button>
         </p>
     </body>
 </html>

@@ -4,6 +4,7 @@
 body {
     background-color: white;
     margin: 0%;
+    outline: none;
 }
 
 /*header*/
@@ -50,6 +51,14 @@ header {
     list-style: none;
 }
 
+/*Slogan-Feedback*/
+.Slogan-Feedback {
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 23px;
+}
+
 /*Book*/
 .Book {
     text-align: center;
@@ -62,4 +71,90 @@ footer {
     font-family: sans-serif;
     text-align: center;
     font-size: 18px;
+}
+
+/*Profile-Button*/
+.Profile-Button {
+    color: white;
+    font-family: sans-serif;
+    background-color: black;
+    outline: none;
+    text-align: center;
+    width: 183.3px;
+    border-color: black;
+}
+
+/*Profile*/
+.Profile {
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+/*Feedback-Button*/
+.Feedback-Button {
+    color: white;
+    font-family: sans-serif;
+    background-color: black;
+    outline: none;
+    text-align: center;
+    border-color: black;
+}
+
+/*Feedback*/
+.Feedback {
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/*Center*/
+.Center {
+    text-align: center;
+}
+
+/*Label*/
+.Label {
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 23px;
+}
+
+/*Input*/
+.Input {
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 18px;
+    background-color: white;
+    border-color: black;
+    outline: none;
+}
+
+/*Radio-Input*/
+.Radio-Input {
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 18px;
+    border-color: black;
+    outline: none;
+}
+
+/*Submit-Button*/
+.Submit-Button {
+    color: white;
+    font-family: sans-serif;
+    background-color: black;
+    outline: none;
+    text-align: center;
+    border-color: black;
+    text-decoration: none;
+    font-size: 25px;
+    width: 150px;
 }
