@@ -73,6 +73,26 @@ footer {
     font-size: 18px;
 }
 
+/*All-Books-Button*/
+.All-Books-Button {
+    color: white;
+    font-family: sans-serif;
+    background-color: black;
+    outline: none;
+    text-align: center;
+    width: 183.3px;
+    border-color: black;
+}
+
+/*All-Books*/
+.All-Books {
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+}
+
 /*Profile-Button*/
 .Profile-Button {
     color: white;
@@ -157,4 +177,16 @@ footer {
     text-decoration: none;
     font-size: 25px;
     width: 150px;
+}
+
+/*Dropdown*/
+.Dropdown {
+    color: white;
+    background-color: black;
+    font-family: sans-serif;
+    text-align: center;
+    border-color: black;
+    outline: none;
+    font-size: 24.5px;
+    width: 65%;
 }
