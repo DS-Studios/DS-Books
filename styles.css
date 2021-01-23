@@ -189,6 +189,7 @@ footer {
     outline: none;
     font-size: 24.5px;
     width: 68%;
+    -webkit-appearance: none;
 }
 
 /*Option*/
