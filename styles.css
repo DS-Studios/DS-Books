@@ -187,17 +187,18 @@ footer {
     text-align: center;
     border-color: black;
     outline: none;
-    font-size: 24.5px;
-    width: 73%;
+    font-size: 23px;
+    width: 75%;
     -webkit-appearance: none;
 }
 
 /*Option*/
 .Option {
+    -webkit-appearance: none;
+    -moz-appearance: none;
     color: white;
     background-color: black;
     font-family: sans-serif;
     text-align: center;
-    font-size: 23px;
-    -webkit-appearance: none;
+    font-size: 21.5px;
 }
