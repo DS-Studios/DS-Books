@@ -188,5 +188,14 @@ footer {
     border-color: black;
     outline: none;
     font-size: 24.5px;
-    width: 65%;
+    width: 68%;
+}
+
+/*Option*/
+.Option {
+    color: white;
+    background-color: black;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 20.5px;
 }
