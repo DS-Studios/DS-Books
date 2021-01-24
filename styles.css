@@ -93,6 +93,26 @@ footer {
     text-decoration: none;
 }
 
+/*App-Information-Button*/
+.App-Information-Button {
+    color: white;
+    font-family: sans-serif;
+    background-color: black;
+    outline: none;
+    text-align: center;
+    width: 183.3px;
+    border-color: black;
+}
+
+/*App-Information*/
+.App-Information {
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+}
+
 /*Profile-Button*/
 .Profile-Button {
     color: white;
@@ -201,4 +221,21 @@ footer {
     font-family: sans-serif;
     text-align: center;
     font-size: 22px;
+}
+
+/*Credits*/
+.Credits {
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 23px;
+}
+
+/*Title-2*/
+.Title-2 {
+   color: black;
+   font-family: sans-serif;
+   text-align: center;
+   font-size: 25px;
+   font-weight: bold; 
 }
